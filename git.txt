@@ -1,0 +1,4 @@
+rm -rf .git -刪除所有紀錄
+git remote add origin https://xxxx - 將倉庫關連到github
+git push -u origin master -把檔案推送到github倉庫：下次推送時，可以把-u去掉
+git rm --cached a.txt - 刪除索引檔不刪除實體
